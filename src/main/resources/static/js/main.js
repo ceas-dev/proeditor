@@ -1,4 +1,4 @@
-fetch('http://localhost:8080/user')
+fetch('http://localhost:7693/user')
   .then(response => response.json())
   .then(users => {
     console.log(users)
